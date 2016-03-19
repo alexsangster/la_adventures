@@ -12,9 +12,16 @@
  *
  *= require_tree .
  *= require_self
+
+
+ #C4FFFF
  */
 
- body { padding-top: 100px; }
- footer { margin-top: 100px; }
- table, td, th { vertical-align: middle; border: none; }
- th { border-bottom: 1px solid #188; }
+
+
+ body { padding-top: 100px; color: blue}
+ h1 {color: purple}
+ th {color: purple; letter-spacing: 1px; word-spacing: 40px; padding-top: 40px}
+ footer { margin-top: 100px; color: #86F2F2;}
+ table, td { padding-top: 50px; vertical-align: middle; border: none; color: purple}
+ th { border-bottom: 1px solid #DDD; }
